@@ -1,9 +1,9 @@
 <?php
-    $name = $_POST['name'];
-    $surname = $_POST['surname'];
-	$phone = $_POST['phone'];
-    $email = $_POST['email'];
-    $text = $_POST['text'];
+    $name = $_GET['name'];
+    $surname = $_GET['surname'];
+	$phone = $_GET['phone'];
+    $email = $_GET['email'];
+    $text = $_GET['text'];
 
 	$to = "b.u.b.form.processing@gmail.com"; 
 	$date = date ("d.m.Y"); 
